@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <ProjectReference Include="..\Parto.Extensions.File.Data.Collection\Parto.Extensions.File.Data.Collection.csproj"/>
+        <ProjectReference Include="..\Parto.Extensions.File.Data.Stack\Parto.Extensions.File.Data.Stack.csproj"/>
+        <ProjectReference Include="..\Parto.Extensions.File.Data\Parto.Extensions.File.Data.csproj"/>
+        <ProjectReference Include="..\Parto.Extensions.File.Data.Table.Abstractions\Parto.Extensions.File.Data.Table.Abstractions.csproj"/>
+    </ItemGroup>
+
+</Project>
